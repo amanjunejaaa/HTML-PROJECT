@@ -1,0 +1,249 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+/* Header Styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #222;
+    color: #fff;
+}
+
+header .logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #ff6347;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    color: #ff6347;
+}
+
+/* Hero Section Styles */
+.hero {
+    background-image: url('hero-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h2 {
+    font-size: 3.5rem;
+    margin-bottom: 10px;
+    color: #ff6347;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.hero .btn {
+    padding: 12px 24px;
+    background-color: #ff6347;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 25px;
+    font-weight: bold;
+}
+
+.hero .btn:hover {
+    background-color: #e5533b;
+}
+
+/* Collection Section */
+.collection {
+    padding: 10px 10px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.collection h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.product {
+    background-color: #f0f0f0;
+    margin: 15px;
+    padding: 15px;
+    width: 220px;
+    height:100%;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.product:hover {
+    transform: scale(1.05);
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.product h3 {
+    font-size: 1.2rem;
+    margin: 10px 0;
+    color: #333;
+}
+
+.product .price {
+    font-size: 1rem;
+    color: #ff6347;
+    font-weight: bold;
+}
+
+.product .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff6347;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.product .btn:hover {
+    background-color: #e5533b;
+}
+
+/* About Section */
+.about {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #fafafa;
+}
+
+/* Testimonials Section */
+.testimonials {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.testimonial {
+    margin-bottom: 20px;
+}
+
+.testimonial p {
+    font-style: italic;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.testimonial h4 {
+    font-weight: bold;
+    color: #ff6347;
+}
+
+/* Newsletter Section */
+.newsletter {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #ff6347;
+    color: #fff;
+}
+
+.newsletter h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.newsletter form {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.newsletter input[type="email"] {
+    padding: 10px;
+    width: 300px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+}
+
+.newsletter button {
+    padding: 10px 20px;
+    background-color: #222;
+    color: #fff;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+.newsletter button:hover {
+    background-color: #333;
+}
+
+/* Footer */
+footer {
+    padding: 20px;
+    text-align: center;
+    background-color: #222;
+    color: #fff;
+}
+
+.social-icons a {
+    margin: 0 10px;
+    display: inline-block;
+}
+.social-icons{
+    padding-top: 20px;
+
+}
+.social-icons img {
+    width: 20px;
+    height: auto;
+}
+.contact{
+    padding-top: 50px;
+    padding-bottom: 25px;
+}
+.contact p{
+    text-align:center
+
+}
+.contact h2{
+    text-align:center;
+    font-size: 30px;
+}
